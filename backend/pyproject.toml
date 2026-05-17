@@ -1,0 +1,21 @@
+[project]
+name = "sport-coach-backend"
+version = "0.1.0"
+description = "Running coach chatbot backend"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic-settings>=2.6.0",
+    "sse-starlette>=2.1.0",
+    "google-adk>=1.0.0",
+    "litellm>=1.55.0",
+    "garminconnect>=0.2.28",
+    "stravalib>=2.0",
+    "httpx>=0.28.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
